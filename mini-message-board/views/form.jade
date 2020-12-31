@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  header
+    h1= title
+  main
+    form(method="POST" action="/new")
+        h1 New Messages
+        label(for="Author") Author's name
+        br
+        br
+        input(type="text" placeholder="Author" name="user")
+        br
+        br
+        label(for="Messages") Your message
+        br
+        br
+        input(type="text" placeholder="Messages" name="text")
+        br
+        br
+        button(type="submit") Submit Message

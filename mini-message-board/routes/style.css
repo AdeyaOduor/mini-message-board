@@ -1,0 +1,18 @@
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #596b86;
+  }
+  
+  .message-card {
+    padding: 4px;
+    background-color: rgb(241, 241, 241);
+    width: 15%;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: rgb(180, 174, 236) 3px 3px;
+  }

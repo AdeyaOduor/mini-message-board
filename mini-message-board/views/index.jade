@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  header
+    h1= title
+  main
+    each message in messages
+      section.message-card
+        p from #{message.user}
+        p.text | #{message.text}
+        p.date | #{message.added}
+  br
+  p 
+  | want to send some message? click
+  | <a href="/new"> here </a> 
